@@ -8,6 +8,7 @@
   </head>
   <body>
 
+    <h1>Example use c:forEach tags from jstl</h1>
      <c:forEach  var="i" begin="1" end="5">
 
        <p> <b>Item: <c:out value="${i}"></c:out></b></p>
